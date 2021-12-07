@@ -22,12 +22,14 @@ def decrypt(n):
         print("NULL")
     elif n == " ":
         print(" ")
+    sys.exit(0)
 
 def encrypt(n):
     if n == "NULL":
         print("NULL")
     else: 
         print("")
+    sys.exit(0)
 write()
        
         
